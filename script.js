@@ -30,6 +30,7 @@ class App extends React.Component {
           <input
             type="text"
             id="searchText"
+            placeholder="Who are you looking for?"
             onChange={event => this.onChangeHandle(event)}
             value={this.state.searchText}/>
         </form>

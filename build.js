@@ -66,6 +66,7 @@ var App = function (_React$Component) {
           React.createElement('input', {
             type: 'text',
             id: 'searchText',
+            placeholder: 'Who are you looking for?',
             onChange: function onChange(event) {
               return _this3.onChangeHandle(event);
             },
